@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fondo degradado -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#f5576c"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#f0f4ff;stop-opacity:0.95"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo circular -->
+  <circle cx="256" cy="256" r="256" fill="url(#bg)"/>
+
+  <!-- Estrellas decorativas -->
+  <text x="60"  y="110" font-size="48" text-anchor="middle" opacity="0.7">⭐</text>
+  <text x="450" y="110" font-size="40" text-anchor="middle" opacity="0.6">✨</text>
+  <text x="80"  y="420" font-size="36" text-anchor="middle" opacity="0.6">💫</text>
+  <text x="440" y="420" font-size="44" text-anchor="middle" opacity="0.7">⭐</text>
+
+  <!-- Tarjeta blanca central -->
+  <rect x="80" y="140" width="352" height="232" rx="40" ry="40" fill="url(#card)" opacity="0.95"/>
+
+  <!-- Operación: 3 + 4 -->
+  <text x="256" y="228" font-family="Arial Black, sans-serif" font-size="88" font-weight="900"
+        text-anchor="middle" fill="#333">3 + 4</text>
+
+  <!-- Línea divisoria -->
+  <line x1="110" y1="258" x2="402" y2="258" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Resultado -->
+  <text x="256" y="338" font-family="Arial Black, sans-serif" font-size="88" font-weight="900"
+        text-anchor="middle" fill="#56ab2f">7</text>
+
+  <!-- Título arriba -->
+  <text x="256" y="90" font-family="Arial Black, sans-serif" font-size="42" font-weight="900"
+        text-anchor="middle" fill="white"
+        style="text-shadow:2px 2px 4px rgba(0,0,0,0.4)">¡Súper Sumas!</text>
+
+  <!-- Estrella grande arriba a la derecha del título -->
+  <text x="430" y="58" font-size="50" text-anchor="middle">🌟</text>
+
+  <!-- Emojis abajo -->
+  <text x="170" y="468" font-size="52" text-anchor="middle">🐠</text>
+  <text x="256" y="476" font-size="52" text-anchor="middle">🌟</text>
+  <text x="342" y="468" font-size="52" text-anchor="middle">🐾</text>
+</svg>
